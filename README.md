@@ -75,3 +75,8 @@ cp _snowboydetect.so snowboydetect.py ~/Documents/sno-py/
 If make delivers an error, you may need to change the `SWIG` declaration in the Makefile.
 Change `SWIG=swig` to `SWIG=swig`. You can also find out if you need to do this if `which swig`
 turns up empty but `which swig3.0` returns a path.
+
+FINALLY you can run the demo:
+```
+python demo.py snowboy.umdl
+```
