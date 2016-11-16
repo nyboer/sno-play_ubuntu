@@ -46,7 +46,7 @@ Navigate to the `sno-py` directory and run `python demo.py`.
 If it doesn't work, you'll need to install and build a bunch of stuff.
 
 ```
-sudo apt-get install swig3.0 python-pyaudio python3-pyaudio sox
+sudo apt-get install swig3.0 python-pyaudio python3-pyaudio sox libpcre3-dev
 pip install pyaudio
 sudo apt-get install libatlas-base-dev
 ```
