@@ -52,8 +52,8 @@ sudo apt-get install libatlas-base-dev
 ```
 make sure you have swig 3.0.7 or above with
 ```
-swig -v
-swig3.0 -v
+swig -version #or
+swig3.0 -version
 ```
 if not, you'll need to compile swig, or figure out a way to ensure apt-get installs the right one.
 Here's the compile instructions:
