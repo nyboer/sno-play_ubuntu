@@ -4,13 +4,23 @@ for Python. These are cribbed and modified from the source more or less, but des
 and running with keyword detection in these two environments.
 
 ##Snowboy and Node
-Make sure you have node version 6.9.1 - `node -v` will tell you. If you don't, you can
-uninstall node (`which node` and `which npm` then just `sudo rm` those paths), then install
-[node version manager](https://github.com/creationix/nvm) to `nvm install node 6`. Install with:
+Make sure you have node version 6.9.1 - `node -v` will tell you. 
+
+If you don't, you can uninstall node either with `apt-get remove node` or
+```
+sudo rm -rf /usr/bin/nodejs /usr/bin/npm
+```
+(that is, `which node` and `which npm`, then just `sudo rm` those paths).
+
+Now you are ready for [node version manager](https://github.com/creationix/nvm) as a nice way to manage node versions. 
+
+Install `nvm` with:
+
 ```
 wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.32.1/install.sh | bash
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+nvm install node 6
 ```
 
 Navigate to the `sno-node` directory, and `npm install`. This should do most of the work.
