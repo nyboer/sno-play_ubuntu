@@ -1,0 +1,16 @@
+{
+  "name": "snowboytest",
+  "version": "1.0.0",
+  "description": "testing node snowboy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Peter Nyboer",
+  "license": "ISC",
+  "dependencies": {
+    "node-record-lpcm16": "^0.1.4",
+    "play": "^0.5.0",
+    "snowboy": "^1.1.0"
+  }
+}
